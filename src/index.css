@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(https://fonts.googleapis.com/css?family=Ruthie:300,400,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap);
+@font-face {
+  font-family: Ionicons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(~react-web-vector-icons/fonts/Ionicons.ttf) format('truetype')
+}
+.bg-purple{
+  background-color: #40296B;
+}
+.bg-white{
+  background-color: #ffffff;
+}
+.text-black{
+  color: black;
+}
+.text-gray{
+  color:#ababab
+}
+.text-white{
+  color:#ffffff;
+}
+.text-center{
+  text-align: center;
+}
+.profile-text{
+  font-size: 31px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.floating-text {
+  font: bold 31px 'Ubuntu', serif;
+}
+.logo-bigger{
+  height: 150px;
+  width: 150px;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Ubuntu', serif;
+}
+.App{
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.ruthie {
+  font-family: Ruthie, serif;
+  font-weight: normal;
+
+}
+
+.cfg{
+  color:rgba(116, 117, 121, 1);
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 20px solid #ffffff;
+}
+.arrow-bottom {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid rgba(238, 238, 238, 1);
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ffffff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  box-shadow: 5px 0 5px -5px rgba(238, 238, 238, 1);
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(116, 117, 121, 1);
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color:#444;
+  text-shadow: 2px 2px 2px  rgba(238, 238, 238, 1);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
