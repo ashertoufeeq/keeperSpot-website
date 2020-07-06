@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70327a5583b9784b8c1911d831f31469",
+    "revision": "4ae8ab0c1563d63825aa89a55c4006d2",
     "url": "/ashertoufeeq/keeperSpot-website/index.html"
   },
   {
-    "revision": "917fa242dee325bbd474",
+    "revision": "17c216a5e6d075f9970d",
     "url": "/ashertoufeeq/keeperSpot-website/static/css/main.9ec202ba.chunk.css"
   },
   {
-    "revision": "16c918f6de332d59d3bf",
-    "url": "/ashertoufeeq/keeperSpot-website/static/js/2.a5c93eb8.chunk.js"
+    "revision": "b059e348797d4e3d40f0",
+    "url": "/ashertoufeeq/keeperSpot-website/static/js/2.ead38cfc.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/ashertoufeeq/keeperSpot-website/static/js/2.a5c93eb8.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/ashertoufeeq/keeperSpot-website/static/js/2.ead38cfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "917fa242dee325bbd474",
-    "url": "/ashertoufeeq/keeperSpot-website/static/js/main.a031a16d.chunk.js"
+    "revision": "17c216a5e6d075f9970d",
+    "url": "/ashertoufeeq/keeperSpot-website/static/js/main.72afcddd.chunk.js"
   },
   {
     "revision": "cbb8f869224576bf2073",
